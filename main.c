@@ -52,6 +52,7 @@ int main(void)
 	vDisplayWriteStringAtPos(2,0,"Template");
 	vDisplayWriteStringAtPos(3,0,"ResetReason: %d", reason);
 	vTaskStartScheduler();
+	//Test von Martin
 	return 0;
 }
 
