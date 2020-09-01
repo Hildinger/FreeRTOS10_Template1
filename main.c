@@ -13,6 +13,7 @@
 #include "sleepConfig.h"
 #include "port_driver.h"
 
+
 #include "FreeRTOS.h"
 #include "task.h"
 #include "queue.h"
@@ -52,6 +53,7 @@ int main(void)
 	vDisplayWriteStringAtPos(2,0,"Template");
 	vDisplayWriteStringAtPos(3,0,"ResetReason: %d", reason);
 	vTaskStartScheduler();
+    //Salli Raphi
 	//Test von Martin
 	return 0;
 }
